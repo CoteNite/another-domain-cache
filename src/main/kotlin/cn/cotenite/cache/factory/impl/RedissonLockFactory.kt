@@ -1,6 +1,6 @@
 package cn.cotenite.cache.factory.impl
 
-import cn.cotenite.cache.entiy.DistributedLock
+import cn.cotenite.cache.model.entiy.DistributedLock
 import cn.cotenite.cache.factory.DistributedLockFactory
 import org.redisson.api.RedissonClient
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty

@@ -1,6 +1,6 @@
 package cn.cotenite.cache.factory
 
-import cn.cotenite.cache.entiy.DistributedLock
+import cn.cotenite.cache.model.entiy.DistributedLock
 
 /**
  * @Author  RichardYoung

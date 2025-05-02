@@ -1,4 +1,4 @@
-package cn.cotenite.cache.entiy
+package cn.cotenite.cache.model.entiy
 
 import java.util.concurrent.TimeUnit
 
