@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit
  * @Date  2025/5/1 02:20
  */
 @Service
-@ConditionalOnProperty(name = ["distributed.cache.type"], havingValue = "redis")
+@ConditionalOnProperty(name = ["distributed.cache.type"], havingValue = "redisson")
 class RedisCacheService(
     private val redissonClient: RedissonClient,
 ):DistributedCacheService{
